@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        position: relative;
+        top: 16px;
+        width: 100%;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: #222;
+        padding-left: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        
+    }
+
+    .topnavleft {
+        display: inline;
+        vertical-align: middle;
+        
+    }
+    
+    .topnavright {
+        position: relative;
+        float: right;
+        padding-right: 30px;
+        vertical-align: middle;
+    }
+
+    a img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        color: #5f6368; 
+    }
+
+    .SignIn {
+        color: #fff;
+        border: 1px transparent;
+        background-color: #4285f4;
+        font-weight: bold;
+        display: inline-block;
+        line-height: 28px;
+        padding: 0 12px;
+        border-radius: 2px;
+        cursor: pointer;
+        
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(32, 32, 32);
+    }
+
+    main {
+        margin: auto;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .searchbar {
+        display: flex;
+        height: 44px;
+        width: 582px;
+        margin: auto;
+        border-radius: 24px;
+        border: 1px solid #dfe1e5;
+    }
+
+    input {
+        margin: auto;
+        height: 40px;
+        width: 500px;
+        border: none;
+    }
+
+    .magnify {
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        margin-left: 12px;
+    }
+
+    .microphone {
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        margin-right: 15px;
+    }
+
+    .button {
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+        color: #5F6368;
+        font-size: 14px;
+        margin: 11px 4px;
+        line-height: 27px;
+        Height: 36px;
+        width: 130px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: black;
+        background-color: rgb(240, 240, 240);
+        box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+        
+    }
+
+    footer {
+        width: 100%;
+        font-size: 14px;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        background: #f2f2f2;
+        border-top: 1px solid #e4e4e4;
+    }
+
+    .navleftbottom {
+        float: left;
+    }
+
+    .navrightbottom {
+        float: right;
+        margin-right: 30px;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class=topnavleft>
+            
+             <a href="#">About</a>
+             <a href="#">Store</a>
+            
+        </div>
+        <div class=topnavright>
+            
+             <a href="#">Gmail</a>
+             <a href="#">Images</a>
+             <a href="#"><img src=applist.png></a>
+             <a href="#"><button class=SignIn>Sign In</button></a>
+             
+        </div>
+    </header>
+
+    <Main>
+            <img src=googlelogo.png>
+            <div class=searchbar>
+                <img class=magnify src=magnifyingglass.png>
+                <input type="text">
+                <img class=microphone src=microphone.png>
+            </div>
+            <div>
+                <button class=button>Google Search</button>
+                <button class=button>I'm Feeling Lucky</button>
+            </div>
+
+        <footer>
+            <div class=navleftbottom>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+            <div class=navrightbottom>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+        </footer>
+    </Main>
+</body>
+
+</html>
